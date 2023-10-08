@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300&family=Quicksand&family=Signika&family=Skranji&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    border: 1px solid black;
+    background-color: rgb(207, 159, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo img {
+    border-radius: 50%;
+    border: 1.5px solid black;
+    margin-left: 15vh;
+    height: 35px;
+    width: 35px;
+}
+
+#linksgroup {
+    display: flex;
+    gap: 30px;
+    margin-right: 10vh;
+}
+
+.links {
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(50, 14, 83);
+    text-shadow: 1px 1px black;
+}
+
+
+
+
+.mid{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+.text{
+    position: absolute;
+    top: 18%;
+    left: 6%;
+}
+.text h2{
+    color:#f7a6a6;
+    text-shadow: 2px 2px black;
+    font-weight: 600;
+    font-size: 3em;
+}
+.text h2 span{
+    color:rgb(197, 23, 0);
+}
+.text p{
+    color:rgb(242, 228, 248);
+    text-shadow: 2px 2px black;
+}
+#button{
+    border-radius: 10px;
+    background-color: #ffdbdb;
+    display: inline-block;
+    padding: 1em;
+    margin-top: 1em;
+}
+#button a{
+    color: rgb(134, 16, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+
+.text2{
+    position: absolute;
+    top: 13%;
+    left: 6%;
+}
+.text2 h2{
+    color:#f7a6a6;
+    text-shadow: 2px 2px black;
+    font-weight: 600;
+    font-size: 2em;
+}
+.pics {
+    text-align: center;
+}
+.pics img{
+    width: 200x; 
+    height: 200px;
+    margin: 0 20px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+
+
+.footer {
+    border: 1px solid black;
+    background-color: #f7a6a6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#logos {
+    display: flex;
+    gap: 10px;
+    margin-right: 10vh;
+}
+#logos img{
+    width: 25px;
+    height: 25px; 
+}
+
+#rights {
+    display: flex;
+    gap: 30px;
+    margin-left: 10vh;
+}
+
+.links2 a{
+    text-decoration: none;
+}
